@@ -352,7 +352,7 @@ const Portfolio: React.FC = () => {
               <div className="avatar-circle">
                 <div className="avatar-inner">
                   <img 
-                    src="/public/assets/Raahul_img.jpeg" 
+                    src="../public/assets/Raahul_img.jpeg" 
                     alt="Raahul Krishna" 
                     className="avatar-image"
                   /> 
