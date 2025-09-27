@@ -1230,3 +1230,7 @@ a:focus-visible {
   opacity: 1;
   transform: perspective(1000px) rotateY(0deg);
 }
+
+.skills-horizontal-track-slow {
+  animation-duration: 60s; /* Increase from whatever it was before */
+}
