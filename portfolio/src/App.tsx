@@ -380,7 +380,7 @@ const Portfolio: React.FC = () => {
 
           <div className="d-flex flex-wrap justify-content-center gap-3 mb-5">
             <a
-              href="https://drive.google.com/file/d/1mTzlCojNBUe33PAf2h0VSpiSHC5HrcjW/view?usp=sharing" target="_blank"
+              href="https://drive.google.com/file/d/1wgrT76sJR2v7o21LF1kuPkss9anrdfh6/view?usp=sharing" target="_blank"
               className="btn btn-primary btn-lg px-4 py-3 rounded-pill d-flex align-items-center gap-2 shadow-lg hover-lift"
             >
               <Download size={20} />

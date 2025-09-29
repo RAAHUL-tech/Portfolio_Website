@@ -10,7 +10,7 @@ import {
   SiCplusplus, SiMysql, SiPytorch, SiTensorflow, SiKeras, 
   SiApachespark, SiApachehadoop, SiFlask, SiLangchain,
   SiKubernetes, SiTerraform, SiApachekafka, SiMlflow,
-  SiHuggingface
+  SiHuggingface, SiTypescript, SiApacheairflow
 } from 'react-icons/si';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
@@ -39,6 +39,7 @@ const SkillsSection: React.FC = () => {
         { name: "Java", icon: <FaJava size={20} />, color: "#f89820" },
         { name: "C++", icon: <SiCplusplus size={20} />, color: "#00599c" },
         { name: "JavaScript", icon: <FaJs size={20} />, color: "#f7df1e" },
+        { name: "TypeScript", icon: <SiTypescript size={20} />, color: "#3178c6" },
         { name: "PHP", icon: <FaPhp size={20} />, color: "#777bb4" },
         { name: "MySQL", icon: <SiMysql size={20} />, color: "#4479a1" },
       ],
@@ -67,12 +68,13 @@ const SkillsSection: React.FC = () => {
         { name: "Docker", icon: <FaDocker size={20} />, color: "#2496ed" },
         { name: "Kubernetes", icon: <SiKubernetes size={20} />, color: "#326ce5" },
         { name: "Terraform", icon: <SiTerraform size={20} />, color: "#623ce4" },
-        { name: "Kafka", icon: <SiApachekafka size={20} />, color: "#0194e2" },
+        { name: "Kafka", icon: <SiApachekafka size={20} />, color: "#231f20" },
         { name: "MLflow", icon: <SiMlflow size={20} />, color: "#0194e2" },
         { name: "DVC", icon: <FaGitAlt size={20} />, color: "#13adc7" },
         { name: "Hydra", icon: <Code size={20} />, color: "#ff6b6b" },
         { name: "W&B", icon: <BarChart3 size={20} />, color: "#ffbe00" },
         { name: "Evidently AI", icon: <BarChart3 size={20} />, color: "#00d4aa" },
+        { name: "Apache Airflow", icon: <SiApacheairflow size={20} />, color: "#017cee" },
       ],
     },
   ];
