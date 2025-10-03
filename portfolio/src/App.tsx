@@ -3,7 +3,7 @@ import {
   ChevronDown, Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Download, Menu, X,
   Award, Calendar, Clock, Zap, ShieldCheck, Image, Monitor, Smile,
   FileText, Star, TrendingUp,
-  GraduationCap, Target, ArrowRight, Sparkles, Rocket, Sun, Moon, Briefcase, BookOpen, Layers
+  GraduationCap, Target, ArrowRight, Rocket, Sun, Moon, Briefcase, BookOpen, Layers
 } from 'lucide-react';
 import { ThemeProvider, useTheme } from './contexts/ThemeContext';
 import LoadingSpinner from './components/LoadingSpinner';
@@ -358,9 +358,6 @@ const Portfolio: React.FC = () => {
                   /> 
                 </div>
               </div>
-              <div className="avatar-badge">
-                <Sparkles size={24} />
-              </div>
             </div>
           </div>
           
@@ -380,7 +377,7 @@ const Portfolio: React.FC = () => {
 
           <div className="d-flex flex-wrap justify-content-center gap-3 mb-5">
             <a
-              href="https://drive.google.com/file/d/1wgrT76sJR2v7o21LF1kuPkss9anrdfh6/view?usp=sharing" target="_blank"
+              href="https://drive.google.com/file/d/1eZ2rAVqBIQ-LDEqhWimBN2Lw22ZoRLAj/view?usp=sharing" target="_blank"
               className="btn btn-primary btn-lg px-4 py-3 rounded-pill d-flex align-items-center gap-2 shadow-lg hover-lift"
             >
               <Download size={20} />
