@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { 
-  ChevronDown, Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Download, Menu, X,
+  ChevronUp, Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Download, Menu, X,
   Award, Calendar, Clock, Zap, ShieldCheck, Image, Monitor, Smile,
   FileText, Star, TrendingUp,
   GraduationCap, Target, ArrowRight, Rocket, Sun, Moon, Briefcase, BookOpen, Layers
@@ -392,7 +392,7 @@ const Portfolio: React.FC = () => {
           </div>
 
           <div className="scroll-indicator animate-bounce">
-            <ChevronDown 
+            <ChevronUp
               size={32} 
               className="text-muted cursor-pointer" 
               onClick={() => scrollToSection('about')} 
@@ -661,16 +661,17 @@ const Portfolio: React.FC = () => {
                           </span>
                         )}
                       </div>
-
+                      <div className="d-flex gap-3 mt-auto">
                       <a
                         href={project.githubLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn-outline-primary btn-sm d-flex align-items-center gap-2 mt-auto"
+                        className="btn btn-outline-primary btn-sm d-flex align-items-center gap-2"
                       >
                         <Github size={14} />
-                        View Code
+                        Code
                       </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -727,15 +728,9 @@ const Portfolio: React.FC = () => {
 
                     <div className="d-flex align-items-center justify-content-between mb-3">
                       <div className="d-flex align-items-center gap-3 small text-muted">
-                        <div className="d-flex align-items-center gap-1">
-                          <Star size={14} className="text-warning" />
-                        </div>
-                        <div className="d-flex align-items-center gap-1">
-                          <TrendingUp size={14} className="text-success" />
-                        </div>
                       </div>
                     </div>
-
+                    <div className="d-flex gap-3 mt-auto">
                     <a
                       href="https://medium.com/@rahulkrish28"
                       target="_blank"
@@ -744,6 +739,7 @@ const Portfolio: React.FC = () => {
                     >
                       Read More <ArrowRight size={14} />
                     </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -866,17 +862,6 @@ const Portfolio: React.FC = () => {
           <p className="text-muted mb-3">
             © 2025 Raahul Krishna Durairaju. Built with React, TypeScript & lots of ☕
           </p>
-          <div className="d-flex justify-content-center gap-3">
-            <a href="https://github.com/RAAHUL-tech" target="_blank" rel="noopener noreferrer" className="text-muted text-decoration-none hover-lift">
-              <Github size={20} />
-            </a>
-            <a href="https://www.linkedin.com/in/raahulkrishna/" target="_blank" rel="noopener noreferrer" className="text-muted text-decoration-none hover-lift">
-              <Linkedin size={20} />
-            </a>
-            <a href="https://medium.com/@rahulkrish28" target="_blank" rel="noopener noreferrer" className="text-muted text-decoration-none hover-lift">
-              <FileText size={20} />
-            </a>
-          </div>
         </div>
       </footer>
 
@@ -887,7 +872,7 @@ const Portfolio: React.FC = () => {
         style={{ zIndex: 1000 }}
         title="Scroll to top"
       >
-        <ChevronDown size={20} className="rotate-180" />
+        <ChevronUp size={20} className="rotate-180" />
       </button>
     </div>
   );
